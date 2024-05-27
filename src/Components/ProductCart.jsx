@@ -18,7 +18,7 @@ function ProductCart(props) {
   return (
     <div className='bg-white p-5 rounded-xl shadow-sm'>
       <Link to={slug}>
-        <img src={image} alt="" className='w-full h-80 object-cover object-top ' />
+        <img src={image} alt="" className='w-full h-48 object-cover object-top ' />
       </Link>
       <h3 className='text-2xl py-3 text-black text-center font-medium'>{name}</h3>
       <div className='flex justify-between items-center'>
